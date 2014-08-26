@@ -38,13 +38,13 @@
 						<div id="articleheader">
 							Geplaatst: <i><?php echo $article['newtime'] ?>.</i> In: <?php echo $article['category'] ?> 
 						</div>
-						<div style="float: left;">
+						<div id="image">
 						<img width="100" height="100" alt="<?php echo $article['title'] ?>" src="<?php echo $article['image'] ?>"/>
 						</div>								
-						<div style="float: right;">
+						<div id="title">
 							<h3><a href="<?php echo $article['url'] ?>" target="blank"><?php echo $article['title']; ?></a></h3>
 						</div>
-						<div style="clear:both"></div>
+						<div id="clear"></div>
 						<p><?php echo $article['description']; ?></p>
 						<div id="related">
 						<?php
